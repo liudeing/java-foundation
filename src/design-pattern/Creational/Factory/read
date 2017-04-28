@@ -1,0 +1,25 @@
+工厂模式
+应用场景:因为工厂模式就相当于创建实例new,我们经常需要根据类Class生成对象,如A a = new A() 工厂模式也是用来创建实例对象的,所以以后new时就多
+个心眼,看是否可以实用工厂模式,虽然这样做,可能多做一些工作,但会给你的系统带来更大的可扩展性和尽量少的修改量.
+我们以类Sample为例,如果我们要创建Sample的实例对象: Sample sample = new Sample(); 可实际情况是,我们需要在创建smaple实例时需要做初始化
+工作,比如赋值,查询数据库等,如果用构造函数Sample sample = new Sample(参数),如果初始化不是赋值,需要一段很长的代码,代码就难看了,需要重构
+(Refactor),将很多方法放在一个方法中(很长代码的初始化工作),有背于面象对象的封装(Encapsulation)和分派(Delegation),尽量将代码分割成每段,
+将每段'封装'起来(减少段与段之间的偶合联系性),这样分散风险,便于修改.
+这样用工厂模式来处理是,按照面向接口编程,把Sample抽象成接口,Sample有两个子类MySample,HisSmaple,...更多子类
+工厂方法:建立一个专门生产Smaple实例的工厂.
+public class Factory {
+    public static Sample creator(int which) {
+        if (which == 1)
+            return new SampleA();
+        else if (which == 2)
+            return new SampleB();
+    }
+}
+
+工厂模式中有: 工厂方法(Factory Method) 抽象工厂(Abstract Factory).
+这两个模式区别在于需要创建对象的复杂程度上。如果我们创建对象的方法变得复杂了,如上面工厂方法中是创建一个对象Sample,如果我们还有新的产品接口
+Sample2.这里假设：Sample有两个concrete类SampleA和SamleB，而Sample2也有两个concrete类Sample2A和SampleB2
+那么，我们就将上例中Factory变成抽象类,将共同部分封装在抽象类中,不同部分使用子类实现，下面就是将上例中的Factory拓展成抽象工厂:
+
+那么在程序中,如果要实例化Sample时.就使用Sample sampleA=Factory.creator(1);这样就达到了封装的效果
+
