@@ -1,0 +1,4 @@
+备忘录模式：就是在内存中保有原来数据的拷贝，这样就可以将该对象恢复到原先保存的状态
+缺点是耗费大，如果内部状态很多，会浪费很大内存。
+在Jsp+JavaBean中有应用
+如用户注册里，填了First Name，没填Last Name,给予警告。就是利用了JavaBean的scope="request"或scope="session",也就是Memento模式。

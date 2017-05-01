@@ -1,0 +1,4 @@
+观察者模式：在界面设计中应用广泛。
+电子商务中商品的变化，通知到会员，在product中加入Observer角色，以便product细节发生变化时，Observer能自动观察到这种变化，并能及时的update
+或notify动作。
+Java还提供了现在的Observer接口。
