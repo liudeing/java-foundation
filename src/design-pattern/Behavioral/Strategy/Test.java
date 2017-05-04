@@ -3,7 +3,7 @@ package Behavioral.Strategy;
 /**
  * Created by liur on 17-5-1.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) throws Exception {
         //使用第一套替代方案
         RepTempRuleSolve solver= new RepTempRuleSolve(new RepTempRuleOne());

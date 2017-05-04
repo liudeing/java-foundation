@@ -7,7 +7,7 @@ import java.util.List;
  * 调用Command模式
  * Created by liur on 17-5-1.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         List queue = Producer.produceRequest();
 

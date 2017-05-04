@@ -5,7 +5,7 @@ package Structural.Flyweight.CD;
  * 当有很多CD时，这样可以节少空间
  * Created by liur on 17-4-30.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         ArtistFactory factory= new ArtistFactory();
 

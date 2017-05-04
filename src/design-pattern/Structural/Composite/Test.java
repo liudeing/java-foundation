@@ -3,7 +3,7 @@ package Structural.Composite;
 /**
  * Created by liur on 17-4-29.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Cabinet cabinet = new Cabinet("Tower");
         Chassis chassis =new Chassis("PC chassis");

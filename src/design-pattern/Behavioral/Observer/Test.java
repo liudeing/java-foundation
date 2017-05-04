@@ -3,7 +3,7 @@ package Behavioral.Observer;
 /**
  * Created by liur on 17-4-30.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Product product = new Product();
         //观察者角色

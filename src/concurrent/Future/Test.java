@@ -3,7 +3,7 @@ package concurrent.Future;
 /**
  * Created by liur on 17-4-26.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Client client = new Client();
 

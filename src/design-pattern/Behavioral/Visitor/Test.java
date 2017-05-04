@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * Created by liur on 17-5-1.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Visitor visitor = new ConcreteVisitor();
 

@@ -3,7 +3,7 @@ package Structural.Flyweight;
 /**
  * Created by liur on 17-4-30.
  */
-public class Main {
+public class Test {
     public static void main(String[] args) {
         FlyweightFactory factory = new FlyweightFactory();
         Flyweight fly1 = factory.getFlyweight("Fred");
