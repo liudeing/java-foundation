@@ -1,0 +1,21 @@
+java 动态代理主要怎么实现的
+手写代码实现
+
+sql的注入方式：
+SQL注入有时候，在地址参数输入，或者控件输入都有可能进行
+跨站脚本攻击（XSS）
+防止方法：参数化的方式赋值，sql语言检查，nginx设置本域访问限制。
+
+web容器的4种作用域
+对应servlet的ServletContext,HttpSession,HttpServletRequest
+application session request page（当前页面）
+
+MySQL乐观锁和悲观锁的概念？原理机制？
+
+Linux命令行。替换，查询
+
+二分查找算法
+
+强引用（引用是一个实例等）与弱引用（引用为null）
+
+comparable是一个内比较器，

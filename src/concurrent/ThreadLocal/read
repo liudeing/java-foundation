@@ -1,0 +1,5 @@
+ThreadLocal:内部维护了一个ThreadLocalMap,是一个类似WeakHashMap的结构。
+ThreadLocalMap内部由一系列的Entry构成，每一个Entry都是一个WeakReference<ThreadLocal>:
+应用：多线程下共享一个产生随机数（生产随机数的Random实例）。共享对象对竞争容易产生性能丢失，可以考虑使用。
+如果希望回收一个变量,可以用ThreadLocal.remove();
+有时候为了加速垃圾回收，会特意写出obj=null，这样容易被发现回收，所以也可以 t1=null回收ThreadLocal对象实例。
