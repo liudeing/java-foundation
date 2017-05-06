@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package designpattern.Structural.Bridge;
 
 /**
  * 加奶和不加奶的行为

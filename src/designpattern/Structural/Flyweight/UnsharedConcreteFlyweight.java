@@ -1,4 +1,4 @@
-package Structural.Flyweight;
+package designpattern.Structural.Flyweight;
 
 /**
  * 不被共享的具体类

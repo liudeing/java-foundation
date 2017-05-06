@@ -1,4 +1,4 @@
-package Behavioral.Strategy.lambdas;
+package designpattern.Behavioral.Strategy.lambdas;
 
 import java.util.Arrays;
 import java.util.List;

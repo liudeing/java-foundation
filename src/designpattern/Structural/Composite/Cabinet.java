@@ -1,4 +1,4 @@
-package Structural.Composite;
+package designpattern.Structural.Composite;
 
 /**
  * CompositEnquipment的具体类，箱子，可以放许多盘盒，底板。。

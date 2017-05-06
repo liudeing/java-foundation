@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package designpattern.Behavioral.Strategy;
 
 /**
  * Created by liur on 17-5-1.

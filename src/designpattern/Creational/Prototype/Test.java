@@ -1,4 +1,4 @@
-package Prototype;
+package designpattern.Creational.Prototype;
 
 /**
  * 调用Prototype模式,克隆的两个对象

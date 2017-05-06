@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package designpattern.Structural.Decorator;
 
 import java.util.ArrayList;
 import java.util.ListIterator;

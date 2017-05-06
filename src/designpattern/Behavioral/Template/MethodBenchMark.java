@@ -1,4 +1,4 @@
-package Behavioral.Template;
+package designpattern.Behavioral.Template;
 
 /**
  * Created by liur on 17-4-30.

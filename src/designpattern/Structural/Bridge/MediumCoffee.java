@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package designpattern.Structural.Bridge;
 
 /**
  * 具体类 concrete class,中杯

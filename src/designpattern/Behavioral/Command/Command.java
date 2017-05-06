@@ -1,4 +1,4 @@
-package Behavioral.Command;
+package designpattern.Behavioral.Command;
 
 /**
  * Created by liur on 17-5-1.

@@ -1,4 +1,4 @@
-package Structural.Composite;
+package designpattern.Structural.Composite;
 
 /**
  * Created by liur on 17-4-29.

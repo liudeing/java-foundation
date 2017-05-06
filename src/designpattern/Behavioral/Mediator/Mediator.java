@@ -1,4 +1,4 @@
-package Behavioral.Mediator;
+package designpattern.Behavioral.Mediator;
 
 /**
  * 需要一个接口，来定义成员对象之间的交互联系方式

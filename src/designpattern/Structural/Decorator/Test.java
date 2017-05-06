@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package designpattern.Structural.Decorator;
 
 /**
  * Decorator模式的调用，有点类似记取文件时的调用

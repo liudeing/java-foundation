@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package designpattern.Behavioral.Observer;
 
 /**
  * Created by liur on 17-4-30.

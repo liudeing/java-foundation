@@ -1,4 +1,4 @@
-package Structural.Adapter;
+package designpattern.Structural.Adapter;
 
 /**
  * 打桩的方形桩

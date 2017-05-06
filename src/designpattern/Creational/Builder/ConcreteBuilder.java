@@ -1,4 +1,4 @@
-package Creational.Builder;
+package designpattern.Creational.Builder;
 
 /**
  * Builder的具体实现类，通过具体完成接口Builder来构建或装配产品的部件;

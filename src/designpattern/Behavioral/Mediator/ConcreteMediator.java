@@ -1,4 +1,4 @@
-package Behavioral.Mediator;
+package designpattern.Behavioral.Mediator;
 
 /**
  * Created by liur on 17-5-1.

@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package designpattern.Structural.Bridge;
 
 /**
  * 抽象接口代码,加奶和不加奶是一个行为，将它抽象为一个专门的接口CoffeeImp

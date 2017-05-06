@@ -1,4 +1,4 @@
-package Structural.Decorator;
+package designpattern.Structural.Decorator;
 
 /**
  * 具体的实例，插入方形柱

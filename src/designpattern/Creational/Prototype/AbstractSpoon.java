@@ -1,4 +1,4 @@
-package Prototype;
+package designpattern.Creational.Prototype;
 
 /**
  * 利用Java中提供的clone()方法来实现对象的克隆,Prototype模式

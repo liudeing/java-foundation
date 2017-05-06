@@ -1,4 +1,4 @@
-package Behavioral.State;
+package designpattern.Behavioral.State;
 
 /**
  * 父类中要有对应的state manager中的开关行为，还要有获取结果的方法

@@ -1,4 +1,4 @@
-package Behavioral.Command;
+package designpattern.Behavioral.Command;
 
 /**
  * 具体的命令/请求代码

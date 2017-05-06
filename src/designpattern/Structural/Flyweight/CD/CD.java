@@ -1,4 +1,4 @@
-package Structural.Flyweight.CD;
+package designpattern.Structural.Flyweight.CD;
 
 /**
  * 唱片CD运用Flyweight模式，歌唱家是可共享的，曲目，唱片日期是不共享的

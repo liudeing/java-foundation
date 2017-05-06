@@ -1,4 +1,4 @@
-package Structural.Flyweight;
+package designpattern.Structural.Flyweight;
 
 /**
  * 用于本模式的抽象数据类型

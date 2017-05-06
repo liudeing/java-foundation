@@ -1,4 +1,4 @@
-package Creational.Builder;
+package designpattern.Creational.Builder;
 
 /**
  * 调用Builder模式

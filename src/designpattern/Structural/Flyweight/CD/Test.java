@@ -1,4 +1,4 @@
-package Structural.Flyweight.CD;
+package designpattern.Structural.Flyweight.CD;
 
 /**
  * Flyweight模式在XML等数据源中读取了三张唱片。

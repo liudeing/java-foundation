@@ -1,4 +1,4 @@
-package Creational.Builder;
+package designpattern.Creational.Builder;
 
 /**
  * 接口，定义如何创建复杂对象的各个部件

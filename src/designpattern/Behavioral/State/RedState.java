@@ -1,4 +1,4 @@
-package Behavioral.State;
+package designpattern.Behavioral.State;
 
 /**
  * Created by liur on 17-5-1.

@@ -1,4 +1,4 @@
-package Behavioral.Visitor;
+package designpattern.Behavioral.Visitor;
 
 import java.util.Collection;
 

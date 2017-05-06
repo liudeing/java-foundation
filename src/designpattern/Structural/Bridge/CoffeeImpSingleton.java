@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package designpattern.Structural.Bridge;
 
 /**
  * 设计一个单态类来hold当前行为类

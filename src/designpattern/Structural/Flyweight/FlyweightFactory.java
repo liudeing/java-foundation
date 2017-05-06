@@ -1,4 +1,4 @@
-package Structural.Flyweight;
+package designpattern.Structural.Flyweight;
 
 import java.util.Hashtable;
 

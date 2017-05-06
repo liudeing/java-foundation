@@ -1,4 +1,4 @@
-package Behavioral.Strategy.lambdas;
+package designpattern.Behavioral.Strategy.lambdas;
 
 /**
  * Created by liur on 17-5-1.

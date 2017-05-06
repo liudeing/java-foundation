@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package designpattern.Behavioral.Strategy;
 
 /**
  * 定义一些公用变量和方法

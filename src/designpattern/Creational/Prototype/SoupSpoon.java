@@ -1,4 +1,4 @@
-package Prototype;
+package designpattern.Creational.Prototype;
 
 /**
  * 具体实现(ConcretePrototype)

@@ -1,4 +1,4 @@
-package Behavioral.Mediator;
+package designpattern.Behavioral.Mediator;
 
 /**
  * ,都需要双方提供一些共同接口,这种要求在Visitor Observer等模式中都是相同的.

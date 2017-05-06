@@ -1,4 +1,4 @@
-package Behavioral.Template;
+package designpattern.Behavioral.Template;
 
 /**
  * 希望重复执行benchMark操作，但没有说明具体操作，延迟到子类中描述

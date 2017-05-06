@@ -1,4 +1,4 @@
-package Structural.Flyweight.CD;
+package designpattern.Structural.Flyweight.CD;
 
 /**
  * 歌唱家作为可共享的ConcreteFlyweight

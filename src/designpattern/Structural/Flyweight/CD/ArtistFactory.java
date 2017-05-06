@@ -1,4 +1,4 @@
-package Structural.Flyweight.CD;
+package designpattern.Structural.Flyweight.CD;
 
 import java.util.Hashtable;
 

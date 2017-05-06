@@ -1,4 +1,4 @@
-package Behavioral.Command;
+package designpattern.Behavioral.Command;
 
 import java.util.Iterator;
 import java.util.List;

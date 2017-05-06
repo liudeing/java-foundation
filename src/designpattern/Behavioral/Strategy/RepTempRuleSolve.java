@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package designpattern.Behavioral.Strategy;
 
 /**
  * 算法解决类，以提供给客户端可以自由选择算法

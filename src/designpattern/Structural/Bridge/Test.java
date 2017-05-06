@@ -1,4 +1,4 @@
-package Structural.Bridge;
+package designpattern.Structural.Bridge;
 
 /**
  * 注意: Bridge模式的执行类如CoffeeImp和Coffee是一对一的关系, 正确创建CoffeeImp是该模式的关键。

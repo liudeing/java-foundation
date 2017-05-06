@@ -1,4 +1,4 @@
-package Behavioral.Visitor;
+package designpattern.Behavioral.Visitor;
 
 /**
  * Created by liur on 17-5-1.

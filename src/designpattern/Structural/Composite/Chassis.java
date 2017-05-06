@@ -1,4 +1,4 @@
-package Structural.Composite;
+package designpattern.Structural.Composite;
 
 /**
  * 具休类，盘盒，里面可以放许多小工具
