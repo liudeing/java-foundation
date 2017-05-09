@@ -19,3 +19,22 @@ Linux命令行。替换，查询
 强引用（引用是一个实例等）与弱引用（引用为null）
 
 comparable是一个内比较器，
+面向对象的设计原则（JAVA）
+一、单一职责原则：
+全称：“Single-Responsibility Principle”
+说明：就一个类而言，应该只专注于做一件事和仅有一个引起它变化的原因
+二、里氏代换原则
+全称：“Liskov Substitution Principle”
+说明：子类型必须能够替换它们的基类型。一个软件实体如果使用的是一个基类，那么当把这个基类替换成继承该基类的子类，程序的行为不会发生任何变化。
+三、依赖倒置原则
+全称：“Dependence Inversion Principle”
+说明：要依赖于抽象，不要依赖于具体。客户端依赖于抽象耦合。
+四、接口隔离原则
+全称：“Interface Segregation Principle”
+说明：使用多个专一功能的接口比使用一个的总接口总要好。
+五、迪米特原则
+全称：“Law of Demeter”
+说明：对象与对象之间应该使用尽可能少的方法来关联，避免千丝万缕的关系。
+六、开放－封闭原则
+全称：“Open-Closed Principle”
+说明：对扩展开放，对修改关闭。
