@@ -1,8 +1,8 @@
 <%@page import="java.lang.*" %>
 <%@page import="java.io.*" %>
-<%@page import="jvm.SubClassLoader.*" %>
+<%@page import="main.java.jvm.SubClassLoader.*" %>
 <%
-    InputStream is = new FileInputStream("/home/liur/IdeaProjects/Java-In/src/jvm/SubClassLoader/TestClass.class");
+    InputStream is = new FileInputStream("/home/liur/IdeaProjects/Java-In/src/main.java.jvm/SubClassLoader/TestClass.class");
     byte[] b = new byte[is.available()];
     is.read(b);
     is.close();

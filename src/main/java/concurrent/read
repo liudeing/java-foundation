@@ -1,0 +1,24 @@
+Executor vs ExecutorService vs Executors
+
+正如上面所说，这三者均是 Executor 框架中的一部分。Java 开发者很有必要学习和理解他们，以便更高效的使用 Java 提供的不同类型的线程池。总结一下这三者间的区别，以便大家更好的理解：
+
+Executor 和 ExecutorService 这两个接口主要的区别是：ExecutorService 接口继承了 Executor 接口，是 Executor 的子接口
+Executor 和 ExecutorService 第二个区别是：Executor 接口定义了 execute()方法用来接收一个Runnable接口的对象，而 ExecutorService 接口中的 submit()方法可以接受Runnable和Callable接口的对象。
+Executor 和 ExecutorService 接口第三个区别是 Executor 中的 execute() 方法不返回任何结果，而 ExecutorService 中的 submit()方法可以通过一个 Future 对象返回运算结果。
+Executor 和 ExecutorService 接口第四个区别是除了允许客户端提交一个任务，ExecutorService 还提供用来控制线程池的方法。比如：调用 shutDown() 方法终止线程池。可以通过 《Java Concurrency in Practice》 一书了解更多关于关闭线程池和如何处理 pending 的任务的知识。
+Executors 类提供工厂方法用来创建不同类型的线程池。比如: newSingleThreadExecutor() 创建一个只有一个线程的线程池，newFixedThreadPool(int numOfThreads)来创建固定线程数的线程池，newCachedThreadPool()可以根据需要创建新的线程，但如果已有线程是空闲的会重用已有线程。
+利用 Executors 类提供的工厂方法来创建一个线程池是很方便，但对于需要根据实际情况自定义线程池某些参数的场景，就不太适用了。
+
+自定义线程池。举个例子：
+当线程池中的线程均处于工作状态，并且线程数已达线程池允许的最大线程数时，就会采取指定的饱和策略来处理新提交的任务。总共有四种策略：
+
+AbortPolicy: 直接抛异常
+CallerRunsPolicy: 用调用者的线程来运行任务
+DiscardOldestPolicy: 丢弃线程队列里最近的一个任务，执行新提交的任务
+DiscardPolicy 直接将新任务丢弃
+如果使用 Executors 的工厂方法创建的线程池，那么饱和策略都是采用默认的 AbortPolicy，所以如果我们想当线程池已满的情况，使用调用者的线程来运行任务，就要自己创建线程池，指定想要的饱和策略，而不是使用 Executors 了。
+
+所以我们可以根据需要创建 ThreadPoolExecutor(ExecutorService接口的实现类) 对象，自定义一些参数，而不是调用 Executors 的工厂方法创建。
+
+当然，在使用 Spring 框架的项目中，也可以使用 Spring 提供的 ThreadPoolTaskExecutor 类来创建线程池。ThreadPoolTaskExecutor 与 ThreadPoolExecutor 类似，也提供了许多参数用来自定义线程池，比如：核心线程池大小，线程池最大数量，饱和策略，线程活动保持时间等等。
+

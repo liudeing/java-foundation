@@ -1,6 +1,5 @@
 package concurrent.Java8;
 
-import java.io.InputStream;
 import java.util.stream.IntStream;
 
 /**

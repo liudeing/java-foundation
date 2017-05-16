@@ -47,7 +47,7 @@ public class ArraySearch {
      */
     public static int pSearch(int searchValue) throws ExecutionException, InterruptedException {
         int subArrSize = arr.length / Thread_Num + 1;
-        List<Future<Integer>> re = new ArrayList<>();
+        List<Future<Integer>> re = new ArrayList<Future<Integer>>();
         //将原始数组分成若干段，并根据划分结果建立子任务，每一个子任务返回一个Future对象，
         // 通过Future对象可以获得线程组的最终结果。
         for (int i = 0; i < arr.length; i += subArrSize) {

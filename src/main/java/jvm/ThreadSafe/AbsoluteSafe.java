@@ -8,7 +8,7 @@ import java.util.Vector;
  * Created by liur on 17-5-9.
  */
 public class AbsoluteSafe {
-    private static Vector<Integer> vector = new Vector<>();
+    private static Vector<Integer> vector = new Vector<Integer>();
 
     public static void main(String[] args) {
         while (true){

@@ -1,0 +1,3 @@
+在JDK1.4中新中新加入的NIO（New Input/Output）类，引入了一种基于通道（Channel）与缓冲区（Buffer）的I/0方式，它是可以使用Native函数库直接
+分配堆外内存，然后通过一个存储在Java堆中的DirectByteBuffer对象作为这块内存的引用进行操作。这样能在一些场景中显著提高性能，因为避免了在Java
+堆和Native堆中来回复制数据。

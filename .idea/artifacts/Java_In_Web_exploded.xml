@@ -8,7 +8,7 @@
           <element id="module-output" name="Java-In" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="cglib-nodep-3.2.5" />
+          <element id="library" level="project" name="libs" />
         </element>
       </element>
     </root>
