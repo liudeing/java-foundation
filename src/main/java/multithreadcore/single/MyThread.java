@@ -1,4 +1,4 @@
-package multithreadcore.t3;
+package multithreadcore.single;
 
 /**
  * 线程不共享实例对象

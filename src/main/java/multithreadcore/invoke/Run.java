@@ -1,4 +1,4 @@
-package multithreadcore.t1;
+package multithreadcore.invoke;
 
 /**
  * 多线程下，代码执行顺序与调用顺序无关

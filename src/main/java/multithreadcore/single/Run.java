@@ -1,4 +1,4 @@
-package multithreadcore.t3;
+package multithreadcore.single;
 
 /**
  * Created by liur on 17-5-12.

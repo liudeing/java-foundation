@@ -3,7 +3,8 @@ package concurrent.NIO.buffer;
 import java.nio.ByteBuffer;
 
 /**
- * ByteBuffer原理探究(JDK为每一种原生类型都创建了一个Buffer;ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,ShortBuffer,LongBuXffer)
+ * ByteBuffer原理探究(JDK为每一种原生类型都创建了一个Buffer;ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,
+ * IntBuffer,ShortBuffer,LongBuXffer)
  * Created by liur on 17-5-15.
  */
 public class NIOBuffer {

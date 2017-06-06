@@ -1,4 +1,4 @@
-package multithreadcore.t1;
+package multithreadcore.invoke;
 
 /**
  * Created by liur on 17-5-11.
