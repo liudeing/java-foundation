@@ -1,0 +1,10 @@
+# 忽略idea编译器文件配置
+.idea/*
+.idea
+*.iml
+*.ipr
+*.iws
+
+# 忽略 pkg、bin 目录
+pkg/*
+bin/*
