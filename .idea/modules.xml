@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-In.iml" filepath="$PROJECT_DIR$/.idea/Java-In.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/concurrent/NIO/netty/netty-learning-master/learning-src/learning-src.iml" filepath="$PROJECT_DIR$/src/main/java/concurrent/NIO/netty/netty-learning-master/learning-src/learning-src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/concurrent/NIO/netty/netty-learning-master/netty-3.10.6.Final/netty.iml" filepath="$PROJECT_DIR$/src/main/java/concurrent/NIO/netty/netty-learning-master/netty-3.10.6.Final/netty.iml" />
     </modules>
   </component>
 </project>

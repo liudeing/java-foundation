@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-In" />
+        <module name="learning-src" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java-In" target="1.6" />
+      <module name="Java-In" target="8" />
+      <module name="learning-src" target="1.5" />
+      <module name="netty" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
