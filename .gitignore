@@ -1,5 +1,4 @@
 # 忽略idea编译器文件配置
-.idea/*
 .idea
 *.iml
 *.ipr
